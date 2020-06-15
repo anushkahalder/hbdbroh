@@ -1,0 +1,120 @@
+ 
+body{
+    background-image: url("b13.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.thebtn{
+    float: right;
+    margin-top: 4%;
+}
+.smol1{
+             
+    font-family: 'Italianno', cursive;
+     float:right;
+     display:inline;
+     padding-top: 65%;
+     font-size: 120px;
+    padding-right: 3%;
+    color: rgba(46, 3, 28, 0.966);
+
+     
+ }
+ span{
+    font-weight: bolder;
+   font-size:100px;
+   font-style: italic;
+}
+ 
+  
+span{
+    font-family: 'Bungee Shade', cursive;
+}
+.thetwo{
+
+    float:right;
+}
+.thethree{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    float: left;
+    
+}
+.theone{
+    position: absolute;
+    top:40%;
+
+}
+#myVideo{
+    position: absolute;
+    left:150%;
+    width: 250%;
+    viewport-fit: 20vh 20vw;
+    top: 30px;
+    transform: rotate(90deg);
+    transform-origin: top left;
+  }
+  .hbd{
+      position: relative;
+      margin-left: 4%;
+      margin-top: 40%;
+      color: blanchedalmond;
+      background-color: brown;
+      border-top-right-radius: 14px;
+  }
+  
+ 
+  .big{
+    display: none;
+}
+
+ @media screen and (max-width:340px){
+     .big{
+         visibility: hidden;
+     }
+     
+    
+    
+ }
+ @media screen and (min-width:700px){
+    .big{
+        display: inline;
+        position: absolute;
+        top: 5%;
+        margin-left: 3%;
+    }
+    
+    .smol1{
+        display:inline;
+        padding-top:25%;
+        font-size: 400px;
+        padding-right: 2%;
+    }
+    span{
+        font-size:190px;
+        font-style: italic;
+    }
+    .thetwo{
+        float: left;
+        position:absolute;
+        left: 20%;
+
+        
+    }
+    .thethree{
+        position: absolute;
+        left: 35%;
+        top: 30%;
+        float: left;
+        
+    }
+    .theone{
+        position: absolute;
+        top:25%;
+    
+    }
+    
+
+ }

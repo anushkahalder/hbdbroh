@@ -1,0 +1,12 @@
+ body{
+    background-image: url("b30.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+
+ img{
+   width: 50%;
+   margin: 25%;
+   border-radius: 12px;
+ }

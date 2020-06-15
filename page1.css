@@ -1,0 +1,110 @@
+body{
+    background-image: url("b30.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    display: table;
+    margin: 0 auto;
+    font-family: "Roboto Slab";
+    font-weight: 600;
+    font-size:10%;
+    background: linear-gradient(330deg, #06f339 0%, #eff30a 25%, #f70d05 50%, #f30be7 75%, #3cd0f5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 200px;
+    float:right;
+  }
+  nav li:hover{
+      background-color: crimson;
+  }
+
+  .jumbotron{
+    background-image: url("a5.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+
+
+
+  @media screen and (min-width:800px){
+
+    .jumbotron{
+        background-image: url("a5.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+    }
+}
+
+
+
+.pic{
+    width: 95%;
+    margin: 5%;
+    padding-right: 8%;
+    padding-top: 20%;
+    
+}
+
+.write{
+    width: 90%;
+    font-size: 80%;
+    background-color: rgba(11, 71, 182, 0.507);
+    padding: 3%;
+    margin: 2%;
+    border-radius: 30px;
+    color: rgb(245, 235, 235);
+}
+.container{
+    background-color: rgba(252, 11, 11, 0.466);
+    border-radius: 12px;
+}
+
+
+
+
+h2{
+    text-align: center;
+}
+.g2{
+    font-size: 200%;
+    text-align: center;
+    color:palegoldenrod;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+ .gyaan2{
+     background-color: rgba(0, 0, 0, 0.356);
+     color: palegoldenrod;
+ 
+     
+ }
+ 
+ .gyaan{
+     background-color: rgb(70, 7, 15);
+     width: 90%;
+     margin-left:20 %;
+     margin-right: 2%;
+     margin-top: 2%;
+     margin-bottom: 2%;
+     text-align: center;
+     color: peachpuff;
+     border-radius: 12px;
+
+    
+ }
+ span{
+     size: 15%;
+ }
+ h3{
+    font-family: 'Playball', cursive;
+ }
